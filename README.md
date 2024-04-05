@@ -21,8 +21,10 @@ Each model was trained to recognize hand signs based on the extracted features f
 After training the models, they were evaluated using the testing data to assess their performance and accuracy in recognizing hand signs. The accuracy of each model was calculated and compared to determine the most effective approach for hand sign recognition.
 
 ## Files
-- `create_dataset.py`: Python script for capturing images and creating the dataset.
+- `collect_images.py`: Python script for capturing images through cam.
+- `create_dataset.py`: Python script for capturing images and creating the handmarks.
 - `train_classifier.py`: Python script for training machine learning models.
+- `test_classifier.py`: Python Script testing the classifiers.
 - `data.pickle`: Pickle file containing the preprocessed dataset.
 - `RF_model.p`: Pickle file containing the trained Random Forest model.
 - `SVM_model.p`: Pickle file containing the trained SVM model.
