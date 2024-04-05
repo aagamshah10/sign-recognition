@@ -3,6 +3,9 @@
 ## Overview
 This project aims to recognize hand signs using machine learning techniques. The dataset consists of images capturing hand signs for letters A, B, C, as well as common gestures like "Hi," "Love you," "Thank you," "Yes," and "No."
 
+## Dataset
+The dataset used in this project can be found [here](https://drive.google.com/drive/folders/1KPJ0pEeOGA4Xc8aMkmlJ-DoQti09pE6K?usp=sharing).
+
 ## Dataset Creation
 The dataset was created by capturing photos of hand signs using a camera. Each class (letter or gesture) was represented by a set of images taken in various lighting conditions and angles.
 
